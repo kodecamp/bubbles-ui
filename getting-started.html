@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Getting Started Guide</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="getting-started.css">
+    <link rel="stylesheet" href="bubblesui.css">
+    <!-- <link rel="stylesheet" href="bubblesui.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="moving-bubbles.css">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="nav-bar">
+            <a href="./">
+                <img class="logo" src="img/bubbles_logo.svg" alt="">
+            </a>
+            <ul>
+                <li><a href="./playground.html">Examples</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="Twitter">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h3>Components</h3>
+        <ol>
+            <li><a href="#typography">Typography</a></li>
+            <li>
+                <a href="#paragraph">Paragraphs</a>
+            </li>
+            <li>
+                <a href="#buttons">Buttons</a>
+            </li>
+            <li>
+                <a href="#linkButtons">Link Buttons</a>
+            </li>
+            <li>
+                <a href="#buttonGroups">Button Groups</a>
+            </li>
+            <li>
+                <a href="#inputFields">Input Fields</a>
+            </li>
+            <li>
+                <a href="#panels">Panels</a>
+            </li>
+            <li>
+                <a href="#table">Table</a>
+            </li>
+            <li>
+                <a href="#alignments">Alignments</a>
+            </li>
+            <li>
+                <a href="#form">Form</a>
+            </li>
+            <li>
+                <a href="#navBar">Nav bar</a>
+            </li>
+            <li>
+                <a href="#modal">Full Screen Modal</a>
+            </li>
+            <li>
+                <a href="#toolTips">Tool Tip</a>
+            </li>
+        </ol>
+    </div>
+    <div class="container">
+        <div class="section" id="Installation">
+            <h3 class="heading">Installation</h3>
+            <div class="content">
+                <p>
+                    BubbleUI can be used with any web project. You just need to include it in your desired html page inside the head tag.
+                </p>
+                <div class="row">
+                    <div class="col-50">
+                        <pre><code data-language="html"><link rel="stylesheet" href="http://bubblesui.bitballoon.com/bubblesui.min.css"></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="typography">
+            <h3 class="heading">Typography</h3>
+            <div class="content">
+                <div class="row">
+                    <div class="col-50">
+                        <h1 class="heading">Heading</h1>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><h1 class="heading">Heading 1</h1></code></pre></span>
+                    </div>
+                    <!-- Heading -->
+                    <div class="col-50">
+                        <h1 class="sub-heading">Sub Heading</h1>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><h1 class="sub-heading">Sub Heading</h1></code></pre></span>
+                    </div>
+                    <!-- Sub Heading -->
+                    <div class="col-50">
+                        <h1 class="small-heading">Small Heading</h1>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><h1 class="small-heading">Small Heading</h1></code></pre></span>
+                    </div>
+                    <!-- Mini Heading -->
+                </div>
+            </div>
+        </div>
+        <div class="section" id="paragraph">
+            <h3 class="heading">Paragraph</h3>
+            <div class="content">
+                <h3>Sample</h3>
+                <p class="para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="row">
+                    <div class="col-50">
+                        <pre><code data-language="html">
+                    <p class="para">
+                        content
+                    </p>
+                </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="buttons">
+            <h3 class="heading">Buttons</h3>
+            <div class="content">
+                <div class="row">
+                    <div class="col-50">
+                        <button class="btn">Normal</button>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><button class="btn">Normal</button></code></pre></span>
+                    </div>
+                    <!-- btn -->
+                    <div class="col-50">
+                        <button class="btn btn-positive">Positive</button>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><button class="btn btn-positive">Positive</button></code></pre></span>
+                    </div>
+                    <!-- btn positive -->
+                    <div class="col-50">
+                        <button class="btn btn-negative">Negative</button>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><button class="btn btn-negative">Negative</button></code></pre></span>
+                    </div>
+                    <!-- btn positive -->
+                </div>
+            </div>
+        </div>
+        <div class="section" id="linkButtons">
+            <h3 class="heading">Link Buttons</h3>
+            <div class="content">
+                <div class="row">
+                    <div class="col-50">
+                        <a href="" class="link clear">Clear</a>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><a href="" class="link clear">Clear</a></code></pre></span>
+                    </div>
+                    <!-- link clear -->
+                    <div class="col-50">
+                        <a href="" class="link btn">Normal</a>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"> <a href="" class="link btn">Normal</a></code></pre></span>
+                    </div>
+                    <!-- btn -->
+                    <div class="col-50">
+                        <a href="" class="link btn btn-positive">Positive</a>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><a href="" class="link btn btn-positive">Positive</a></code></pre></span>
+                    </div>
+                    <!-- btn -->
+                    <div class="col-50">
+                        <a href="" class="link btn btn-negative">Negative</a>
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><a href="" class="link btn btn-negative">Negative</a></code></pre></span>
+                    </div>
+                    <!-- btn -->
+                </div>
+            </div>
+        </div>
+        <div class="section" id="buttonGroups">
+            <h3 class="heading">Button Groups</h3>
+            <div class="content">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="button-group">
+                            <button class="left">Left</button>
+                            <button class="middle">Middle</button>
+                            <button class="right">Right</button>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <pre><code data-language="html">
+            <div class="button-group">
+                <button class="left">Left</button>
+                <button class="middle">Middle</button>
+                <button class="right">Right</button>
+            </div>
+                        </code></pre>
+                    </div>
+                    <div class="col-50">
+                        <div class="button-group">
+                            <button class="left">Left</button>
+                            <button class="right">Right</button>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <pre>
+                    <code data-language="html">
+            <div class="button-group">
+                <button class="left">Left</button>
+                <button class="right">Right</button>
+            </div>
+                    </code>
+                </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="inputFields">
+            <h3 class="heading">Input Text</h3>
+            <div class="content">
+                <div class="row">
+                    <div class="col-50">
+                        <input type="text" placeholder="text value">
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><input type="text"></code></pre></span>
+                    </div>
+                    <!-- link clear -->
+                    <div class="col-50">
+                        <input type="text" class="modern" placeholder="text value">
+                    </div>
+                    <div class="col-50">
+                        <span> <pre><code data-language="html"><input type="text" class="modern"></code></pre></span>
+                    </div>
+                    <!-- link clear -->
+                </div>
+            </div>
+        </div>
+        <div class="section" id="panels">
+            <h3 class="heading">Panels</h3>
+            <div class="content">
+                <div class="panel">
+                    <div class="header">
+                        <h3>Info</h3>
+                        <a href="" class="close">X</a>
+                    </div>
+                    <div class="content">
+                        <p class="msg-desc">
+                            <pre><code data-language="html">
+                                <div class="panel">
+                                    <div class="header">
+                                        <h3>Info</h3>
+                                        <a href="" class="close">X</a>
+                                    </div>
+                                    <div class="content">
+                                        <p class="msg-desc">
+                                            message content
+                                        </p>
+                                    </div>
+                                </div>
+                            </code></pre>
+                        </p>
+                    </div>
+                </div>
+                <!-- panel -->
+            </div>
+            <div class="content">
+                <div class="panel alert">
+                    <div class="header">
+                        <h3>Error</h3>
+                        <a href="" class="close">X</a>
+                    </div>
+                    <div class="content">
+                        <p class="msg-desc">
+                            <pre><code data-language="html">
+                                <div class="panel alert">
+                                    <div class="header">
+                                        <h3>Info</h3>
+                                        <a href="" class="close">X</a>
+                                    </div>
+                                    <div class="content">
+                                        <p class="msg-desc">
+                                            message content
+                                        </p>
+                                    </div>
+                                </div>
+                            </code></pre>
+                        </p>
+                    </div>
+                </div>
+                <!-- panel -->
+            </div>
+            <div class="content">
+                <h1>Warn</h1>
+                <h3>Pending...</h3>
+            </div>
+        </div>
+        <div class="section" id="table">
+            <h3 class="heading">Default Table</h3>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                    <tr>
+                        <td>Column 1</td>
+                        <td>Column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Column 1</td>
+                        <td>Column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Column 1</td>
+                        <td>Column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Column 1</td>
+                        <td>Column 2</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="section" id="alignments">
+            <h3 class="heading">Alignment Classes</h3>
+            <div class="content">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="align left">
+                            <a href="" class="btn link">Left Align Button</a>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <pre><code data-language="html">
+                    < div class="align left">
+                        Place you component here
+                        < /div>
+                </code></pre>
+                    </div>
+                    <div class="col-50">
+                        <div class="align right">
+                            <a href="" class="btn link">Right Align Button</a>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <pre><code data-language="html">
+                    < div class="align right">
+                        Place you component here
+                        < /div>
+                </code></pre>
+                    </div>
+                    <div class="col-50">
+                        <div class="align center-v center-h">
+                            <a href="" class="btn link">Horizontally Center Align Button</a>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <pre><code data-language="html">
+                    <div class="align center-v center-h">
+                        Place your content here
+                    </div>
+                </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="form">
+            <h3 class="heading">Form</h3>
+            <div class="content">
+                <form class="form">
+                    <h3>Title</h3>
+                    <fieldset>
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="address">Address</label>
+                        <input type="text" name="" id="address">
+                    </fieldset>
+                    <fieldset>
+                        <label for="collegeName">College Name</label>
+                        <input type="text" name="" id="collegeName">
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="" id="email">
+                    </fieldset>
+                    <fieldset>
+                        <label for="url">Profile Url</label>
+                        <input type="url" name="" id="url">
+                    </fieldset>
+                    <div class="button-panel">
+                        <div class="button-group">
+                            <button class="left">Save</button>
+                            <button class="right" type="reset">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="row col-50">
+                    <pre><code data-language="html">
+                    <form class="form">
+                        <h3>Title</h3>
+                        <fieldset>
+                            <label for="name">Name</label>
+                            <input type="text" name="" id="name">
+                        </fieldset>
+                        <fieldset>
+                            <label for="address">Address</label>
+                            <input type="text" name="" id="address">
+                        </fieldset>
+                        <fieldset>
+                            <label for="collegeName">College Name</label>
+                            <input type="text" name="" id="collegeName">
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">E-Mail</label>
+                            <input type="email" name="" id="email">
+                        </fieldset>
+                        <fieldset>
+                            <label for="url">Profile Url</label>
+                            <input type="url" name="" id="url">
+                        </fieldset>
+                        <div class="button-panel">
+                            <div class="button-group">
+                                <button class="left">Save</button>
+                                <button class="right" type="reset">Cancel</button>
+                            </div>
+                        </div>
+                    </form>
+                </code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="modal">
+            <h3 class="heading">Modal Overlay</h3>
+            <div class="content">
+                <a href="#openModal" class="btn link">Open Modal</a>
+                <div id="openModal" class="modalDialog">
+                    <div>
+                        <a href="#close-btn" title="Close" class="close-btn">X</a>
+                        <h2 class="modal-title">Modal Box</h2>
+                        <p class="para">loreLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                        <pre><code data-language="html">
+                    <a href="#openModal" class="btn link">Open Modal</a>
+                    <div id="openModal" class="modalDialog">
+                        <div>
+                            <a href="#close-btn" title="Close" class="close-btn">X</a>
+                            <h2>Modal Box</h2>
+                            <p>put your content here</p>
+                        </div>
+                    </div>
+                </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Tool Tip</h3>
+            <div class="content">
+                <div class="tooltip">
+                    <button class="link btn trigger" id="trigger">Hover Me</button>
+                    <span>Tool tip message</span>
+                </div>
+                
+            </div>
+        </div>
+        <!-- <div class="auto-message panel alert" id="autoMessage">
+            <div class="header">
+                <h3>Welcome to BubbleUI</h3>
+                
+            </div>
+            <div class="content">
+                <h3 class="msg-desc">
+                            We highly appreciate your feedback. Please send us your valueable feedback @ <strong>findjyotsnaj9@gmail.com</strong>
+                        </h3>
+            </div>
+        </div> -->
+    </div>
+    <script type="text/javascript" src="./rainbow-custom.min.js"></script>
+    </pre>
+</body>
+
+</html>

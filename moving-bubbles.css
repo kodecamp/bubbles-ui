@@ -1,0 +1,15 @@
+* {
+    transition: background-color 300ms ease-in-out;
+}
+
+button {
+    transition: all 300ms ease-in-out;
+}
+
+a {
+    transition: all 300ms ease-in-out;
+}
+
+input[type=text] {
+    transition: all 300ms ease-in-out;
+}

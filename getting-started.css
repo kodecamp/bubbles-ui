@@ -62,7 +62,6 @@
     transition: background-color 1s ease-in-out;
     display: flex;
     flex-direction: column;
-
 }
 
 .section .heading {
@@ -101,34 +100,38 @@
     /*width:5%;*/
     /*height: 5%;*/
     /*transition: all 300ms ease-in-out;*/
-    animation-name: change-bg;
-    animation-duration: 2s;
-    animation-iteration-count: 5;
-    animation-direction: reverse;
+    /*animation-name: change-bg;
+animation-duration: 2s;
+animation-iteration-count: 5;
+animation-direction: reverse;
+*/
 }
 
-@keyframes change-bg{
-    from{
-        transform:scale(1);
+@keyframes change-bg {
+    from {
+        transform: scale(1);
     }
-    to{
+    to {
         transform: scale(1.5);
     }
 }
 
-.sidebar h3{
+.sidebar h3 {
     color: white;
 }
-.sidebar ol{
+
+.sidebar ol {
     display: none;
 }
-.sidebar:hover ol{
+
+.sidebar:hover ol {
     /*box-shadow: 2px 2px 2px gray;*/
     width: 100%;
     display: block;
+    list-style-type: none;
 }
 
-.sidebar:hover{
+.sidebar:hover {
     animation-play-state: paused;
 }
 
